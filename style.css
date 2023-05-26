@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-slate-blue: hsl(252, 100%, 67%); /*Background*/
+  --light-royal-blue: hsl(241, 81%, 54%); /*Background*/
+  --violet-blue: hsla(256, 72%, 46%, 1); /*Circle*/
+  --persian-blue: hsla(241, 72%, 46%, 0); /*Circle*/
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  padding-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 550px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  font-family: "Hanken Grotesk", sans-serif;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.blue-card {
+  text-align: center;
+  border-radius: 15px;
+  height: 100%;
+  width: 50%;
+  padding: 0px;
+  background-color: var(--light-royal-blue);
+}
+
+.main-title {
+  color: var(--light-lavender);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    var(--violet-blue),
+    var(--light-royal-blue)
+  );
+  color: var(--white);
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.main-score {
+  position: absolute;
+  top: 20%;
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--white);
+}
+
+.total-score {
+  position: absolute;
+  bottom: 25%;
+  font-size: 15px;
+  color: var(--light-lavender);
+}
+
+.result-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--white);
+  padding-top: 30px;
+}
+
+.result-subtitle {
+  font-size: 15px;
+  padding-top: 10px;
+  color: var(--light-lavender);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.out-card {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
