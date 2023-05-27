@@ -186,6 +186,10 @@ body {
   color: var(--white);
 }
 
+.continue-button:hover {
+  cursor: pointer;
+}
+
 .attribution {
   margin-top: 50px;
   font-size: 11px;
